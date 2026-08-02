@@ -1,0 +1,96 @@
+CSE 111 Proposta para um Programa Escolhido pelo Estudante
+
+    (Esta é uma proposta. Todas as propostas são escritas com o nosso melhor
+    conhecimento no início de um projeto. À medida que avançamos do início
+    ao fim de um projeto, adquirimos mais conhecimento e mudamos algumas
+    das ideias propostas. Isso faz parte da conclusão de qualquer projeto
+    e não há problema. No entanto, ainda precisamos escrever uma proposta
+    para que nossos professores ou supervisores saibam o que pretendemos
+    fazer. Por favor, responda a cada uma das perguntas a seguir da melhor
+    forma possível com base no seu conhecimento.)
+
+1. Qual é o título do seu programa?
+R: Calculadora de Custos para Impressão 3D
+
+2. Que problema do mundo real o seu programa vai abordar ou ajudar a resolver?
+R: Muitas pessoas que trabalham com impressão 3D têm dificuldade para calcular corretamente o 
+custo de fabricação de uma peça. Frequentemente consideram apenas o consumo de filamento e 
+acabam ignorando outros custos importantes, como energia elétrica, tempo de utilização da impressora, 
+depreciação do equipamento, acabamento e margem de lucro.
+
+Este programa ajudará o usuário a calcular o custo real de produção de uma peça impressa em 3D.
+ O usuário poderá selecionar um material previamente cadastrado, informar dados como peso da peça, 
+ tempo de impressão, consumo de energia, custo por hora da impressora e margem de lucro desejada. 
+ O programa realizará todos os cálculos automaticamente, apresentará um relatório detalhado e armazenará
+ os orçamentos em um arquivo CSV para consultas futuras.
+
+3. O que você aprenderá ao desenvolver este programa?
+R: Durante o desenvolvimento deste projeto pretendo ampliar meus conhecimentos sobre programação em Python,
+ especialmente na organização de programas maiores utilizando funções reutilizáveis.
+
+Também pretendo aprender a:
+
+organizar o programa em múltiplas funções;
+utilizar listas e dicionários para armazenar informações;
+ler e gravar dados em arquivos CSV;
+utilizar módulos da biblioteca padrão do Python;
+aplicar tratamento de exceções para tornar o programa mais confiável;
+desenvolver testes automatizados utilizando pytest;
+produzir um programa organizado, documentado e de fácil manutenção.
+
+4. Quais módulos Python o seu programa usará?
+
+    (Alguns exemplos são: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests e tkinter.)
+    R: 
+*csv
+*datetime
+*os
+*pytest
+
+5.Liste os nomes das funções de que você precisará.
+
+    (Lembre-se de que as funções mais reutilizáveis não obtêm entrada do usuário
+    nem imprimem resultados; em vez disso, recebem parâmetros e retornam um resultado.
+    Funções que obtêm entrada do usuário e imprimem resultados são importantes e fazem
+    um trabalho útil, mas não são facilmente reutilizáveis.)
+
+
+    (Lembre-se também de que é difícil testar funções que obtêm entrada do usuário
+    e imprimem resultados. É fácil testar funções que não obtêm entrada do usuário
+    nem imprimem resultados, mas que recebem parâmetros e retornam um resultado.
+    Portanto, você deve escrever a maior parte das funções do seu programa para
+    receber parâmetros e retornar um resultado.)
+R: main()
+
+ler_materiais()
+
+calcular_custo_filamento()
+
+calcular_custo_energia()
+
+calcular_custo_tempo()
+
+calcular_custo_total()
+
+calcular_preco_venda()
+
+gerar_relatorio()
+
+salvar_orcamento()
+
+
+6. Liste os nomes das funções de teste que você escreverá.
+R: test_calcular_custo_filamento()
+
+test_calcular_custo_energia()
+
+test_calcular_custo_tempo()
+
+test_calcular_custo_total()
+
+test_calcular_preco_venda()
+
+test_ler_materiais()
+
+test_salvar_orcamento()
