@@ -1,0 +1,2 @@
+data,nome_peca,material,peso_gramas,tempo_horas,custo_filamento,custo_energia,custo_tempo,custo_acabamento,custo_perdas,custo_total,lucro,preco_venda
+04/08/2026 21:23:45,8,ABS Preto,8.00,8.00,0.92,0.51,64.00,8.00,5.87,79.31,6.34,85.65
